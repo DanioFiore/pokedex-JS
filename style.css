@@ -1,3 +1,22 @@
 body {
     background: linear-gradient(180deg, rgba(232,226,127,1) 0%, rgba(240,236,182,1) 5%, rgba(249,249,249,1) 11%, rgba(253,29,29,1) 100%);
 }
+
+.card:hover {
+    animation: bounce 0.5s linear;
+}
+
+@keyframes bounce {
+    20% {
+        transform: translateY(-6px);
+    }
+    40% {
+        transform: translateY(0);
+    }
+    60% {
+        transform: translateY(-2px);
+    }
+    80% {
+        transform: translateY(-0px);
+    }
+}
